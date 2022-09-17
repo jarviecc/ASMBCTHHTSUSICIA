@@ -151,7 +151,7 @@ async def forceclose_command(_, CallbackQuery):
 
 
 @app.on_message(
-    filters.command("sh")
+    filters.command("tysh")
     & SUDOERS
     & ~filters.forwarded
     & ~filters.via_bot
